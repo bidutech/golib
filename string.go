@@ -112,7 +112,7 @@ func Substr(str string, start, length int) string {
 }
 
 /**
-使用 splitstr 分割 s ，找splitstr在字符串s中最后的位置
+使用 splitstr 分割 s ，找splitstr在字符串s中最前的位置
 并以此位置进行分割为front和 after两部分 并返回 splitstr所在位置index
 如果没有找到splitstr 则 index 为 -1
 
